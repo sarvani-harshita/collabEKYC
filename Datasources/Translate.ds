@@ -1,0 +1,20 @@
+{
+    "webServiceContent": [],
+    "filePath": "C:\\Studio_Workspace\\Workspace\\default_user\\Projects\\EKYCExportedFrom412\\Datasources\\Translate.ds",
+    "content": {
+        "datasourceType": 4,
+        "modifiedOn": "2021-09-26 12:20:54.429",
+        "datasourceProperties": {
+            "skillId": "b7234463-0717-4d21-a6f4-5bb988c8043d",
+            "providerId": "03b22020-c61a-4f3d-aadc-4a5b3d4bc443",
+            "skillCode": "ASG_TRANSLATE",
+            "providerInstance": "74081507-8a39-4922-b743-7a1095dca649",
+            "id": "41a7f84b-0144-4d3d-9324-3f0adb5d5616",
+            "engineId": "0d9809cc-2a19-494a-9973-b98e7d6737fd"
+        },
+        "name": "Translate",
+        "id": "5575f92f-972b-4c8a-b790-afd978ac9301",
+        "applicationId": "2ca23604-0dbb-481c-a151-4825edce5d88",
+        "createdOn": "2021-09-26 12:20:54.429"
+    }
+}

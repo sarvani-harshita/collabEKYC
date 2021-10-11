@@ -1,0 +1,157 @@
+{
+    "variables": [],
+    "isDebbugerEnable": "false",
+    "isValidSequence": true,
+    "breakPointEnable": "true",
+    "modelerModel": {
+        "process": {
+            "sequenceFlow": [
+                {
+                    "targetRef": "OpenTask_ol95n9",
+                    "businessProp": {},
+                    "name": "",
+                    "tasktCommandName": "sequenceFlow",
+                    "id": "SequenceFlow_11329xw",
+                    "sourceRef": "StartEvent_1ragxca",
+                    "type": "rpa:sequenceFlow"
+                },
+                {
+                    "targetRef": "EndEvent_im4wqk",
+                    "businessProp": {},
+                    "name": "",
+                    "tasktCommandName": "sequenceFlow",
+                    "id": "SequenceFlow_w1ok6t",
+                    "sourceRef": "OpenTask_ol95n9",
+                    "type": "rpa:sequenceFlow"
+                }
+            ],
+            "endEvent": {
+                "incoming": "SequenceFlow_w1ok6t",
+                "businessProp": {},
+                "name": "End",
+                "id": "EndEvent_im4wqk",
+                "type": "rpa:endEvent"
+            },
+            "openTask": {
+                "nodeName": "OpenTask",
+                "outgoing": "SequenceFlow_w1ok6t",
+                "incoming": "SequenceFlow_11329xw",
+                "businessProp": {"applicationName": "notepad"},
+                "name": "Open Application",
+                "tasktCommandName": "StartProcessCommand",
+                "id": "OpenTask_ol95n9",
+                "type": "rpa:openTask",
+                "lineNumber": 1,
+                "events": []
+            },
+            "startEvent": {
+                "outgoing": "SequenceFlow_11329xw",
+                "businessProp": {"GlobalVariables": []},
+                "name": "Start",
+                "id": "StartEvent_1ragxca",
+                "type": "rpa:startEvent"
+            },
+            "id": "Process_1"
+        },
+        "BPMNDiagram": {
+            "bpmnElement": "Process_1",
+            "BPMNPlane": {
+                "BPMNShape": [
+                    {
+                        "bpmnElement": "EndEvent_im4wqk",
+                        "Bounds": {
+                            "cx": 239.99999735138613,
+                            "cy": 431.99998276530596,
+                            "x": 187.99999735138613,
+                            "width": 104,
+                            "y": 411.01998322306963,
+                            "height": 41.959999084472656
+                        },
+                        "id": "EndEvent_im4wqk_ve"
+                    },
+                    {
+                        "bpmnElement": "OpenTask_ol95n9",
+                        "Bounds": {
+                            "cx": 239.99999884588067,
+                            "cy": 305.0973050687443,
+                            "x": 131.91999701482598,
+                            "width": 216.16000366210938,
+                            "y": 285.11730552650795,
+                            "height": 39.959999084472656
+                        },
+                        "id": "OpenTask_ol95n9_ve"
+                    },
+                    {
+                        "bpmnElement": "StartEvent_1ragxca",
+                        "Bounds": {
+                            "cx": 189.99999805580478,
+                            "cy": 186.0000014898342,
+                            "x": 137.99999805580478,
+                            "width": 104,
+                            "y": 165.02000194759788,
+                            "height": 41.959999084472656
+                        },
+                        "id": "StartEvent_1ragxca_ve"
+                    }
+                ],
+                "BPMNEdge": [
+                    {
+                        "waypoint": [
+                            {
+                                "x": "189.99999805580478",
+                                "y": "206.98000194759788"
+                            },
+                            {
+                                "x": "189.99999805580478",
+                                "y": "246.04865373705292"
+                            },
+                            {
+                                "x": "239.99999701482596",
+                                "y": "246.04865373705292"
+                            },
+                            {
+                                "x": "239.99999701482596",
+                                "y": "285.11730552650795"
+                            }
+                        ],
+                        "bpmnElement": "SequenceFlow_11329xw",
+                        "id": "SequenceFlow_11329xw_ve"
+                    },
+                    {
+                        "waypoint": [
+                            {
+                                "x": "239.99999701482596",
+                                "y": "325.0773055265079"
+                            },
+                            {
+                                "x": "239.99999735138613",
+                                "y": "411.01998322306963"
+                            }
+                        ],
+                        "bpmnElement": "SequenceFlow_w1ok6t",
+                        "id": "SequenceFlow_w1ok6t_ve"
+                    }
+                ]
+            },
+            "id": "Process_1_ve"
+        },
+        "variables": [],
+        "collaboration": {}
+    },
+    "description": "",
+    "uiModelerVersion": "7.0.1",
+    "isValidProcess": true,
+    "responseMessage": "",
+    "tasktActions": [{
+        "nodeName": "OpenTask",
+        "outgoing": "SequenceFlow_w1ok6t",
+        "incoming": "SequenceFlow_11329xw",
+        "businessProp": {"applicationName": "notepad"},
+        "name": "Open Application",
+        "tasktCommandName": "StartProcessCommand",
+        "id": "OpenTask_ol95n9",
+        "type": "rpa:openTask",
+        "lineNumber": 1,
+        "events": []
+    }]
+}

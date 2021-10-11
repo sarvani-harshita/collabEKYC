@@ -1,0 +1,19 @@
+{
+    "webServiceContent": [],
+    "filePath": "C:\\Studio_Workspace\\Workspace\\default_user\\Projects\\EKYCExportedFrom401\\Datasources\\ContentServer.ds",
+    "content": {
+        "datasourceType": 2,
+        "modifiedOn": "2021-09-23 09:05:40.054",
+        "datasourceProperties": {
+            "contentServiceVersion": "11.1",
+            "defaultConfig": {"repoIds": []},
+            "datasourceId": "ccf6d4f9-4bc4-4b49-acef-66bf4d37ba7e",
+            "id": "b912ad61-5894-45eb-8aa1-e0be00af28a3",
+            "discoveryUrl": "http://mobviewqa01cx.asg.com:443/mobius/rest/resources"
+        },
+        "name": "ContentServer",
+        "id": "ccf6d4f9-4bc4-4b49-acef-66bf4d37ba7e",
+        "applicationId": "bd75cd9a-be69-4d72-9a7d-d703b97cb284",
+        "createdOn": "2021-09-23 09:05:40.054"
+    }
+}
